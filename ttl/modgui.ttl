@@ -1,14 +1,14 @@
 @prefix modgui: <http://moddevices.com/ns/modgui#> .
 @prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
 
-<http://romain-hennequin.fr/plugins/mod-devel/Freeze>
+<http://romain-hennequin.fr/plugins/mod-devel/GxFreeze>
     modgui:gui [
         modgui:resourcesDirectory <modgui> ;
         modgui:iconTemplate <modgui/icon-mr-freeze.html> ;
         modgui:stylesheet <modgui/stylesheet-mr-freeze.css> ;
         modgui:screenshot <modgui/screenshot-mr-freeze.png> ;
         modgui:thumbnail <modgui/thumbnail-mr-freeze.png> ;
-        modgui:brand "MR FREEZE" ;
+        modgui:brand "GXMR FREEZE" ;
         modgui:label "" ;
         modgui:model "boxy" ;
         modgui:panel "2-knobs" ;

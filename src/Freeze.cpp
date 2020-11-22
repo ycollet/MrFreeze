@@ -11,7 +11,7 @@
 
 /**********************************************************************************************************************************************************/
 
-#define PLUGIN_URI "http://romain-hennequin.fr/plugins/mod-devel/Freeze"
+#define PLUGIN_URI "http://romain-hennequin.fr/plugins/mod-devel/GxFreeze"
 enum { IN, OUT, FREEZE, FREEZEGAIN, DRYGAIN, FADEINDURATION, FADEOUTDURATION, PLUGIN_PORT_COUNT };
 
 /**********************************************************************************************************************************************************/
@@ -100,7 +100,7 @@ LV2_Handle Freeze::instantiate(const LV2_Descriptor* descriptor,
                                const LV2_Feature* const* features) {
   std::string wisdomFile = bundle_path;
   wisdomFile += "/mrfreeze.wisdom";
-  const uint32_t n_samples = 128;  // GetBufferSize(features);
+  const uint32_t n_samples = 256;  // GetBufferSize(features);
   Freeze* plugin = new Freeze(n_samples, n_samples, samplerate, wisdomFile);
   return (LV2_Handle)plugin;
 }

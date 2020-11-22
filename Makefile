@@ -14,7 +14,7 @@ endif
 RM = rm -f
 
 # plugin name
-PLUGIN = mrfreeze
+PLUGIN = gxmrfreeze
 PLUGIN_SO = $(PLUGIN).so
 
 # effect path
@@ -22,7 +22,7 @@ EFFECT_PATH = $(PLUGIN).lv2
 
 # installation path
 ifndef INSTALL_PATH
-INSTALL_PATH = /Library/Audio/Plug-Ins/LV2
+INSTALL_PATH = /usr/lib/lv2
 endif
 INSTALLATION_PATH = $(DESTDIR)$(INSTALL_PATH)/$(EFFECT_PATH)
 
