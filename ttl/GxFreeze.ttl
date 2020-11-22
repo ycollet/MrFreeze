@@ -29,8 +29,7 @@ doap:maintainer [
 mod:brand "ForTheMod";
 mod:label "GxMr. Freeze";
 
-
-doap:license "GPL";
+doap:license <http://usefulinc.com/doap/licenses/gpl>;
 
 lv2:minorVersion 0;
 lv2:microVersion 1;
